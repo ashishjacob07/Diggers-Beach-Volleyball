@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="txt">
+
+body {
+	font: font: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background-image:
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+
+h5 {
+	text-align: center;
+}
+
+
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #9B1B86;
+	text-decoration: underline;
+}
+
+a:hover, a:active, a:focus { 
+	text-decoration: overline;
+}
+
+.contain {
+	width: 1080px;
+	background-color: #375E97; ;
+	margin: 0 auto; 
+}
+
+.colorful {
+	background-color: #FFF200;
+}
+
+.colorfulll {
+		background-color:  #14AA0F;
+}
+	
+.header {
+	background-color: #FB6542;
+}
+
+.sidebar1 {
+	float: right;
+	width: 200px;
+	background-color: #FB6542;
+	padding-bottom: 1px;
+}
+
+.content {
+	background-color:white;
+	padding: 10px 0;
+	width: 880px;
+	float: left;
+	border-bottom: 5px solid black;
+}
+
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; 
+}
+
+ul.nav {
+	list-style: none; 
+	margin-bottom: 15px; 
+}
+
+ul.nav li {
+	border-bottom: 3px solid #000000;
+	}
+
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width: 180px;
+	text-decoration: none;
+	background-color: #FFF200;
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+	background-color: #14AA0F;
+	color: #FFF;
+}
+
+.footer {
+	padding: 10px 0;
+	background-color: #FFF200;
+	position: relative;
+	clear: both;
+	border-bottom: 5px solid black;
+}
+
+</style>
